@@ -1,2 +1,2 @@
-点击链接访问
-[aa](https://ysz1686048631.github.io/Alldomes/)
+网页预览
+[点击直达](https://ysz1686048631.github.io/Alldomes/)
