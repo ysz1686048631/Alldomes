@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="css/font-awesome.css" />
+		<title></title>
+		<style type="text/css">
+			*{margin: 0;padding: 0;}
+			.top{height: 10vh;background: #0097FF;color: #fff;font-size: 17px;padding: 10px;}
+			.top p{margin-bottom: 10px;}
+			.search{height: 35px;background: #fff;color: #A9A9A9;border: 1 solid #fff;border-radius: 5px;display: flex;align-items: center;justify-content: center;margin: 10px;}
+			.header img{width: 8vh;height: 8vh;}
+			.header dl{display: flex;justify-content: space-around;flex-wrap: wrap;}
+			.header dt{width: 60px;height: 76px;display: inline-block;padding: 15px 5px 10px 5px;}
+			.one{padding: 10px;}
+			.one li{display: flex;height: 90px;}
+			
+			.add{width: 100%;}
+			.add ul{padding: 10px;}
+			img{width: 60px;height: 60px;padding: 4px 0px 0px 0px;}
+			.text{padding: 10px 0px 0px 10px;line-height: 23px;width: 100%;}
+			.add li{display: flex;height: 170px;}
+			.line{width: 100%;border: 1px solid gainsboro;margin-bottom: 10px;}
+			.tipe{border: 1 solid #26CE61;border-radius: 50px;background: #26CE61;width: 20px;height: 17px;color: #fff;text-align: center;display: inline-block;font-size: 13px;margin: 5px 0px 5px 0px;}
+			/*底部*/
+			.page-footer{
+                background: #FFFFFF;
+	            width: 100vw;height:8vh;display: flex;
+	            justify-content: space-around;align-items: center;
+	            position: fixed;bottom: 0;font-size:2vh ;text-align: center;
+	            border-top: #AAAAAA 0.2vh solid; color: #aaa;
+                      }
+            .page-footer img{
+                margin-left: -0.5vh;
+                  }
+			
+		</style>
+	</head>
+	<body>
+		<div class="top">
+			<p><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;<strong>沈阳市规划大厦</strong>&nbsp;<i class="fa fa-caret-down" aria-hidden="true"></i></p>
+			<div class="search">
+				<i class="fa fa-search" aria-hidden="true"></i>
+				<font size="2">搜索饿了么商家、商品名称</font>
+			</div>
+		</div>
+		
+		<div class="header">
+			<dl>
+				<dt><a><img src="img/dcfl01.png"/></a><a style="font-size: 14px;display: flex;justify-content: center;">美食</a></dt>
+				<dt><a><img src="img/dcfl02.png"/></a><a style="font-size: 14px;display: flex;justify-content: center;">早餐</a></dt>
+				<dt><a><img src="img/dcfl03.png"/></a><a style="font-size: 14px;display: flex;justify-content: center;">跑腿代购</a></dt>
+				<dt><a><img src="img/dcfl04.png"/></a><a style="font-size: 14px;display: flex;justify-content: center;">汉堡披萨</a></dt>
+				<dt><a><img src="img/dcfl05.png"/></a><a style="font-size: 14px;display: flex;justify-content: center;">甜品饮品</a></dt>
+				<dt><a><img src="img/dcfl06.png"/></a><a style="font-size: 14px;display: flex;justify-content: center;">速食简餐</a></dt>
+				<dt><a><img src="img/dcfl07.png"/></a><a style="font-size: 14px;display: flex;justify-content: center;">地方小吃</a></dt>
+				<dt><a><img src="img/dcfl08.png"/></a><a style="font-size: 14px;display: flex;justify-content: center;">米粉面馆</a></dt>
+				<dt><a><img src="img/dcfl09.png"/></a><a style="font-size: 14px;display: flex;justify-content: center;">包子粥铺</a></dt>
+				<dt><a><img src="img/dcfl10.png"/></a><a style="font-size: 14px;display: flex;justify-content: center;">炸鸡炸串</a></dt>
+			</dl>
+		</div>
+		<div class="one">
+			<ul>
+				<li style="margin-bottom: 20px;position: relative;">
+					<img src="img/index_banner.png" style="width: 100%;height: 100px;" />
+				    <div style="position: absolute;margin: 8px 0px 0px 13px;">
+					  <p style="font-size: 18px;"><strong>品质套餐</strong></p>
+					  <p style="font-size: 15px;color: #A9A9A9;margin-bottom: 25px;">搭配齐全吃的好</p>
+					  <p style="font-size: 15px;color: coral;">立即抢购&gt;</p>
+				    </div>
+				</li>
+				<li style="border: 1px solid #FEEDC1;border-radius:5px;background:#FEEDC1;height: 40px;display: flex;justify-content: space-around;">
+					<span style="height: 40px;font-size: 15px;display: flex;align-items: center;"><img src="img/super_member.png" style="height: 25px;width: 25px;"/>&nbsp;<strong>超级会员</strong>&nbsp;•&nbsp;<font size="2">每月享超值权益</font></span>
+					<span style="height: 40px;font-size: 13px;display: flex;align-items: center;">立即开通&gt;</span>
+				</li>
+				<li style="font-size: 17px;height: 50px;display: flex;justify-content: center;align-items: center;">——&nbsp;&nbsp;&nbsp;推荐商家&nbsp;&nbsp;&nbsp;——</li>
+			</ul>
+			<dl style="height:30px;display: flex;justify-content: space-between;">
+				<dt>综合排序&nbsp;<i class="fa fa-caret-down" aria-hidden="true"></i></dt>
+				<dt>距离最近</dt>
+				<dt>销量最高</dt>
+				<dt>筛选&nbsp;<i class="fa fa-filter" aria-hidden="true"></i></dt>
+			</dl>
+			
+		</div>
+		
+		<div class="add">
+			<ul>
+				<li>
+					<img src="img/sj01.png"/>
+						
+				    <div class="text">
+				    	
+				    	<p style="font-size: 15px;">万家饺子（软件园E18店）</p>
+				    	<div style="border: 1px solid #0097FF;border-radius:5px;background: #0097FF;color: #fff;float: right;font-size: 11px;height: 17px;">蜂鸟专送</div>
+				    	<p style="font-size: 12px;color: #A9A9A9;">
+				    		<i class="fa fa-star" aria-hidden="true" style="color: #FEC80E;"></i>
+				    		<i class="fa fa-star" aria-hidden="true" style="color: #FEC80E;"></i>
+				    		<i class="fa fa-star" aria-hidden="true" style="color: #FEC80E;"></i>
+				    		<i class="fa fa-star" aria-hidden="true" style="color: #FEC80E;"></i>
+				    		<i class="fa fa-star" aria-hidden="true" style="color: #FEC80E;"></i>
+				    		4.9月售345单
+				    	</p>
+				    	<span style="color:#A9A9A9 ;font-size: 12px;float: right;">3.22km|30分钟</span>
+				    	<p style="font-size: 12px;color: #A9A9A9;">￥15起送|￥3配送</p>
+				    	<p style="font-size: 12px;color: #A9A9A9;border: 1px solid;width: 50px;border-radius: 7px;">各种饺子</p> 
+				    	<span style="color:#A9A9A9 ;font-size: 12px;float: right;">2个活动&nbsp;<i class="fa fa-sort-desc" aria-hidden="true"></i></span>
+				    	<p><span class="tipe">新</span><span style="font-size: 13px;color: #A9A9A9;">饿了么新用户首单立减9元</span></p>
+				    	<p><span class="tipe" style="background: orange;">特</span><span style="font-size: 13px;color: #A9A9A9;">特价商品5元起</span></p>
+				    </div>
+				</li>
+				<div class="line"></div>
+				<li>
+					<img src="img/sj02.png"/>
+					
+					<div class="text">
+				    	<p style="font-size: 15px;">小锅饭豆腐馆（全运店）</p>
+				    	<div style="border: 1px solid #0097FF;border-radius:5px;background: #0097FF;color: #fff;float: right;font-size: 11px;height: 17px;">蜂鸟专送</div>
+				    	<p style="font-size: 12px;color: #A9A9A9;">
+				    		<i class="fa fa-star" aria-hidden="true" style="color: #FEC80E;"></i>
+				    		<i class="fa fa-star" aria-hidden="true" style="color: #FEC80E;"></i>
+				    		<i class="fa fa-star" aria-hidden="true" style="color: #FEC80E;"></i>
+				    		<i class="fa fa-star" aria-hidden="true" style="color: #FEC80E;"></i>
+				    		<i class="fa fa-star" aria-hidden="true" style="color: #FEC80E;"></i>
+				    		4.9月售345单
+				    	</p>
+				    	<span style="color:#A9A9A9 ;font-size: 12px;float: right;">3.22km|30分钟</span>
+				    	<p style="font-size: 12px;color: #A9A9A9;">￥15起送|￥3配送</p>
+				    	<p style="font-size: 12px;color: #A9A9A9;border: 1px solid;width: 50px;border-radius: 7px;">各种饺子</p> 	
+				    	<span style="color:#A9A9A9 ;font-size: 12px;float: right;">2个活动&nbsp;<i class="fa fa-sort-desc" aria-hidden="true"></i></span>
+				    	<p><span class="tipe">新</span><span style="font-size: 13px;color: #A9A9A9;">饿了么新用户首单立减9元</span></p>
+				    	<p><span class="tipe">特</span><span style="font-size: 13px;color: #A9A9A9;">特价商品5元起</span></p>
+				    </div>
+				</li>
+				<div class="line"></div>
+				<li>
+					<img src="img/sj03.png"/>
+				
+					<div class="text">
+				    	<p style="font-size: 15px;">麦当劳麦乐送（全运路店）</p>
+				    	<div style="border: 1px solid #0097FF;border-radius:5px;background: #0097FF;color: #fff;float: right;font-size: 11px;height: 17px;">蜂鸟专送</div>
+				    	<p style="font-size: 12px;color: #A9A9A9;">
+				    		<i class="fa fa-star" aria-hidden="true" style="color: #FEC80E;"></i>
+				    		<i class="fa fa-star" aria-hidden="true" style="color: #FEC80E;"></i>
+				    		<i class="fa fa-star" aria-hidden="true" style="color: #FEC80E;"></i>
+				    		<i class="fa fa-star" aria-hidden="true" style="color: #FEC80E;"></i>
+				    		<i class="fa fa-star" aria-hidden="true" style="color: #FEC80E;"></i>
+				    		4.9月售345单
+				    	</p>
+				    	<span style="color:#A9A9A9 ;font-size: 12px;float: right;">3.22km|30分钟</span>
+				    	<p style="font-size: 12px;color: #A9A9A9;">￥15起送|￥3配送</p>
+				    	<p style="font-size: 12px;color: #A9A9A9;border: 1px solid;width: 50px;border-radius: 7px;">各种饺子</p> 	
+				    	<span style="color:#A9A9A9 ;font-size: 12px;float: right;">2个活动&nbsp;<i class="fa fa-sort-desc" aria-hidden="true"></i></span>
+				    	<p><span class="tipe">新</span><span style="font-size: 13px;color: #A9A9A9;">饿了么新用户首单立减9元</span></p>
+				    	<p><span class="tipe">特</span><span style="font-size: 13px;color: #A9A9A9;">特价商品5元起</span></p>
+				    </div>
+				</li>
+				<div class="line"></div>
+				<li>
+					<img src="img/sj04.png"/>
+					<div class="text">
+				    	<p style="font-size: 15px;">米村拌饭（浑南店）</p>
+				    	<div style="border: 1px solid #0097FF;border-radius:5px;background: #0097FF;color: #fff;float: right;font-size: 11px;height: 17px;">蜂鸟专送</div>
+				    	<p style="font-size: 12px;color: #A9A9A9;">
+				    		<i class="fa fa-star" aria-hidden="true" style="color: #FEC80E;"></i>
+				    		<i class="fa fa-star" aria-hidden="true" style="color: #FEC80E;"></i>
+				    		<i class="fa fa-star" aria-hidden="true" style="color: #FEC80E;"></i>
+				    		<i class="fa fa-star" aria-hidden="true" style="color: #FEC80E;"></i>
+				    		<i class="fa fa-star" aria-hidden="true" style="color: #FEC80E;"></i>
+				    		4.9月售345单
+				    	</p>
+				    	<span style="color:#A9A9A9 ;font-size: 12px;float: right;">3.22km|30分钟</span>
+				    	<p style="font-size: 12px;color: #A9A9A9;">￥15起送|￥3配送</p>
+				    	<p style="font-size: 12px;color: #A9A9A9;border: 1px solid;width: 50px;border-radius: 7px;">各种饺子</p> 	
+				    	<span style="color:#A9A9A9 ;font-size: 12px;float: right;">2个活动&nbsp;<i class="fa fa-sort-desc" aria-hidden="true"></i></span>
+				    	<p><span class="tipe">新</span><span style="font-size: 13px;color: #A9A9A9;">饿了么新用户首单立减9元</span></p>
+				    	<p><span class="tipe">特</span><span style="font-size: 13px;color: #A9A9A9;">特价商品5元起</span></p>
+				    </div>
+				</li>
+				<div class="line"></div>
+				<li>
+					<img src="img/sj05.png"/>
+					<div class="text">
+				    	<p style="font-size: 15px;">申记串道（中海康城店）</p>
+				    	<div style="border: 1px solid #0097FF;border-radius:5px;background: #0097FF;color: #fff;float: right;font-size: 11px;height: 17px;">蜂鸟专送</div>
+				    	<p style="font-size: 12px;color: #A9A9A9;">
+				    		<i class="fa fa-star" aria-hidden="true" style="color: #FEC80E;"></i>
+				    		<i class="fa fa-star" aria-hidden="true" style="color: #FEC80E;"></i>
+				    		<i class="fa fa-star" aria-hidden="true" style="color: #FEC80E;"></i>
+				    		<i class="fa fa-star" aria-hidden="true" style="color: #FEC80E;"></i>
+				    		<i class="fa fa-star" aria-hidden="true" style="color: #FEC80E;"></i>
+				    		4.9月售345单
+				    	</p>
+				    	<span style="color:#A9A9A9 ;font-size: 12px;float: right;">3.22km|30分钟</span>
+				    	<p style="font-size: 12px;color: #A9A9A9;">￥15起送|￥3配送</p>
+				    	<p style="font-size: 12px;color: #A9A9A9;border: 1px solid;width: 50px;border-radius: 7px;">各种饺子</p> 	
+				    	<span style="color:#A9A9A9 ;font-size: 12px;float: right;">2个活动&nbsp;<i class="fa fa-sort-desc" aria-hidden="true"></i></span>
+				    	<p><span class="tipe">新</span><span style="font-size: 13px;color: #A9A9A9;">饿了么新用户首单立减9元</span></p>
+				    	<p style="margin-bottom: 10vh;"><span class="tipe">特</span><span style="font-size: 13px;color: #A9A9A9;">特价商品5元起</span></p>
+				    </div>
+				</li>
+				
+			</ul>
+		</div>
+		<div class="page-footer">
+			<figure>
+				<i class="fa fa-home" aria-hidden="true"></i>
+				<figcaption>首页</figcaption>
+			</figure>
+			<figure>
+				<i class="fa fa-compass" aria-hidden="true"></i>
+				<figcaption>发现</figcaption>
+			</figure>
+			<figure>
+				<i class="fa fa-file-text-o" aria-hidden="true"></i>
+				<figcaption>订单</figcaption>
+			</figure>
+			<figure>
+				<i class="fa fa-user-o" aria-hidden="true"></i>
+				<figcaption>我的</figcaption>
+			</figure>
+		</div>
+	</body>
+</html>
