@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="styles/basic.css"/>
+		<style type="text/css">
+			.banner{
+			width: 100%;
+			height: 600px;
+			background: url(img/search.jpg) center top;
+			min-width: 1240px;
+			align-items: center;
+			}
+			.inpt{
+			height: 60px;
+			font-size: 26px;
+			border-radius: 0.625rem;
+			border: none;
+			outline: none;}
+			/* 页面主体样式 */
+			.page-body{
+			width: 1240px;
+			margin: 0 auto;
+			padding: 30px 0;}
+			.page-body h2,.page-body h3{
+			width: 1240px;
+			text-align: center;
+			padding: 20px 0;
+			}	
+			.page-body figure{
+			width: 380px;
+			padding: 10px;
+			border:#aaa 1px solid;
+			border-radius: 6px ;
+			position: relative;
+			}
+			.page-body figcaption span{
+			color: #AAAAAA;
+			letter-spacing: 5px;
+			}
+			.info{
+			font-size: 22px;
+			color: orange;
+			}
+			.le{
+			font-style: italic;
+			color: #AAAAAA;
+			}
+			.tip{
+			display: block;
+			width: 120px;
+			height: 30px;
+			line-height: 30px;
+			text-align: center;
+			background: green;color: #FFFFFF;
+			position: absolute;
+			top:10px
+			}
+			.body-content{
+			display: flex;
+			justify-content: space-between;
+			flex-wrap: wrap;}
+			.body-content figure{
+			margin-bottom: 20px;}
+		</style>
+	</head>
+	<body>
+		<!-- 页面的头部 -->
+		<header class="page-header">
+			<!-- 页面的导航部分 -->
+			<div class="page-nav ecenter">
+				<div class="main-nav spacebtw">
+				<h1 class="logo"><img src="img/logo.png" alt="" img=""></h1>
+				<nav class="nav-content">
+					<ul class="spacebtw">
+						<li><a href="">首页</a></li>
+						<li><a href="dome.html">旅游资讯</a></li>
+						<li><a href="dome2.html">机票订购</a></li>
+						<li><a href="dome3.html">风景欣赏</a></li>
+						<li><a href="dome4.html">公司简介</a></li>
+					</ul>
+				</nav>
+				</div>
+			</div>
+			<!-- 页面的banner部分 -->
+			<div class="banner ecenter">
+				<section><input type="text" placeholder="请输入要搜索的景点名称" class="inpt" style="width: 400px;text-indent: 1em;">&nbsp;&nbsp;<input type="button" value="搜索" class="inpt" style="width: 80px;"></section>
+			</div>
+		</header>
+		
+		<!-- 页面的主体部分 -->
+		<div class="page-body">
+			<hgroup>
+				<h2>热门旅游</h2>
+				<h3>国内旅游、国际旅游、旅游签证、机票订购、酒店服务、美食餐饮</h3>
+			</hgroup>
+			
+			<div class="body-content">
+			<figure>
+				<img src="img/tour1.jpg" >
+				<figcaption>&lt;曼谷芭提雅6日游&gt;<span>包团特惠，超丰富景点，升级1晚国五，无自费，更赠送600元成人自费卷</span></figcaption>
+				<section class="spacebtw">
+					<p class="info">2680元</p>
+					<p class="le">77%</p>
+				</section>
+				<span class="tip">
+					国内长线
+				</span>
+			</figure>
+			<figure>
+				<img src="img/tour2.jpg" >
+				<figcaption>&lt;马尔代夫双鱼岛Olhuveli4晚6日自助游&gt;<span>上海出发，机+酒包含：早晚餐+快艇</span></figcaption>
+				<section class="spacebtw">
+					<p class="info">8039元</p>
+					<p class="le">97%</p>
+				</section>
+				<span class="tip">
+					出境长线
+				</span>
+			</figure>
+			<figure>
+				<img src="img/tour3.jpg" >
+				<figcaption>&lt;海南双飞5日游&gt;<span>含盐城接送，全程挂牌四星饭店，一价全含，零自费“自费项目”免费送</span></figcaption>
+				<section class="spacebtw">
+					<p class="info">2709元</p>
+					<p class="le">90%</p>
+				</section>
+				<span class="tip">
+					自助旅游
+				</span>
+			</figure>
+			<figure>
+				<img src="img/tour4.jpg" >
+				<figcaption>&lt;富山-大阪-东京8日游&gt;<span>暑假亲子，2天自由，无导游安排自费项目，全程不强迫购物</span></figcaption>
+				<section class="spacebtw">
+					<p class="info">9499元</p>
+					<p class="le">97%</p>
+				</section>
+				<span class="tip">
+					自助旅游
+				</span>
+			</figure>
+			<figure>
+				<img src="img/tour5.jpg" >
+				<figcaption>&lt;法瑞德意12日游&gt;<span>4至5星，金色列车，少女峰，部分THE MALL</span></figcaption>
+				<section class="spacebtw">
+					<p class="info">9199元</p>
+					<p class="le">97%</p>
+				</section>
+				<span class="tip">
+					国内短线
+				</span>
+			</figure>
+			<figure>
+				<img src="img/tour6.jpg" >
+				<figcaption>&lt;巴厘岛6日半自助游&gt;<span>蓝梦出海，独栋别墅，悦榕庄下午茶，纯玩</span></figcaption>
+				<section class="spacebtw">
+					<p class="info">6488元</p>
+					<p class="le">95%</p>
+				</section>
+				<span class="tip">
+					出境长线
+				</span>
+			</figure>
+			<figure>
+				<img src="img/tour7.jpg" >
+				<figcaption>&lt;塞舌尔迪拜9日自助游&gt;<span>一游两国，4晚塞舌尔，2晚迪拜，香港EK往返</span></figcaption>
+				<section class="spacebtw">
+					<p class="info">9669元</p>
+					<p class="le">100%</p>
+				</section>
+				<span class="tip">
+					游轮观光
+				</span>
+			</figure>
+			<figure>
+				<img src="img/tour8.jpg" >
+				<figcaption>&lt;花样姐姐土耳其9日或10日游&gt;<span>最高立减3000！中餐六菜一汤+土耳其当地美食满足您挑剔味蕾</span></figcaption>
+				<section class="spacebtw">
+					<p class="info">9999元</p>
+					<p class="le">93%</p>
+				</section>
+				<span class="tip">
+					出境长线
+				</span>
+			</figure>
+			<figure>
+				<img src="img/tour9.jpg" >
+				<figcaption>&lt;大阪-京都-箱根双飞6日游&gt;<span>盐城直飞，不走回头路，境外无自费，超值之旅</span></figcaption>
+				<section class="spacebtw">
+					<p class="info">5284元</p>
+					<p class="le">100%</p>
+				</section>
+				<span class="tip">
+					国内短线
+				</span>
+			</figure>
+			
+			</div>
+			
+			
+			
+		</div>
+		<!-- 页面的底部 -->
+		<footer class="page-footer">
+			<div class="sub-nav ecenter">
+				<nav class="subnav-content spacebtw">
+					<ul>
+                         <h4>合作伙伴</h4>
+                         <li><a href="">途牛旅游网</a></li>
+                         <li><a href="">驴妈妈旅游网</a></li>
+                         <li><a href="">携程旅游</a></li>
+                         <li><a href="">中国青年旅游社</a></li>
+                    </ul>
+                    <ul>
+                         <h4>旅游FAQ</h4>
+                         <li><a href="">旅游合同签订方式？</a></li>
+                         <li><a href="">儿童价是基于什么制定的？</a></li>
+                         <li><a href="">旅游的路线品质怎么界定的？</a></li>
+                         <li><a href="">单房差是什么？</a></li>
+                         <li><a href="">旅游保险有哪些类型？</a></li>
+                    </ul>
+                    <ul>
+                         <h4>联系方式</h4>
+                         <li><a href="">微博： weibo.com/ycku</a></li>
+                         <li><a href="">邮件： yuku@yuku.com</a></li>
+                         <li><a href="">地址： 江苏盐城无名路123号</a></li>
+                    </ul>
+				</nav>
+			</div>
+			<div class="copyright">Copright  YCKU 瓢城旅游社 | 苏 ICP 备120110119 号 | 旅游社经营许可证：L-YC-BK12345 </div>
+		</footer>
+		
+	</body>
+</html>

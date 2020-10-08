@@ -1,0 +1,338 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.content {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.content-nav {
+  width: 100%;
+  height: 70px;
+  background: #000;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.content-nav .bar {
+  display: flex;
+  height: 70px;
+}
+
+.content-nav .bar > span {
+  padding: 0 30px;
+  line-height: 70px;
+}
+
+.content-nav .bar > span:hover {
+  background: #777;
+}
+
+.content-nav .bar > span a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.content .dialog {
+  width: 100%;
+  height: 270px;
+  background: url(../img/search.jpg) no-repeat;
+  background-position: 50% 100%;
+  background-size: 120%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.content .dialog > span {
+  color: #fff;
+  padding: 5px 50px;
+}
+
+.content .dialog > span:nth-of-type(1) {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.content .dialog > span:nth-of-type(2) {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.content-cons {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.content-cons .lists {
+  width: 70%;
+}
+
+.content-cons .lists-title {
+  font-size: 26px;
+  border-bottom: 1px dashed #666666;
+  color: #666666;
+  padding: 5px 5px;
+}
+
+.content-cons .lists-pay-conlist {
+  display: flex;
+  flex-direction: column;
+}
+
+.content-cons .lists-pay-conlist-title {
+  color: #666666;
+  font-size: 14px;
+  padding: 10px 0;
+}
+
+.content-cons .lists-pay-conlist-title span {
+  margin: 0 5px;
+  padding: 2px 3px;
+}
+
+.content-cons .lists-pay-conlist-title .active {
+  background: #458b00;
+  color: #fff;
+  border-radius: 2px;
+}
+
+.content-cons .lists-pay-conlist-input {
+  display: flex;
+  flex-direction: row;
+}
+
+.content-cons .lists-pay-conlist-input .input-items {
+  width: 700px;
+}
+
+.content-cons .lists-pay-conlist-input .input-items span {
+  display: inline-block;
+  width: 49%;
+  color: #666666;
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.content-cons .lists-pay-conlist-input .input-items span input {
+  border: 1px solid #ccc;
+  padding: 4px 2px;
+  border-radius: 4px;
+  font-size: 14px;
+  margin-left: 30px;
+  width: 70%;
+}
+
+.content-cons .lists-pay-conlist-input .input-bar button {
+  width: 95px;
+  height: 95px;
+  background: #f40;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 95px;
+  border: none;
+  outline-style: none;
+  border-radius: 3px;
+}
+
+.content-cons .lists-table table {
+  display: table;
+  border-collapse: collapse;
+  color: #666666;
+  border-spacing: 2px;
+  border-color: grey;
+  border: 1px solid #e7e7e7;
+}
+
+.content-cons .lists-table table .fontcolor {
+  color: #f40;
+}
+
+.content-cons .lists-table table tr th {
+  color: #666666;
+  padding: 10px 0;
+}
+
+.content-cons .lists-table table tr:nth-of-type(2n-1) {
+  background: #fafafa;
+  border-top: 1px solid #e7e7e7;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.content-cons .lists-table table td {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.content-cons .lists-table table td button {
+  padding: 5px 20px;
+  border-radius: 3px;
+  background: #f40;
+  color: #fff;
+  border: none;
+  outline-style: none;
+}
+
+.content-cons .silderbar {
+  width: 30%;
+  margin-left: 10px;
+}
+
+.content-cons .silderbar-eare {
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.content-cons .silderbar-eare .silderbar-title {
+  background: #fafafa;
+  font-size: 20px;
+  padding: 3px 3px;
+  color: #777;
+}
+
+.content-cons .silderbar-eare .silderbar-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  font-size: 13px;
+  grid-gap: 1px 1px;
+}
+
+.content-cons .silderbar-eare .grid-item {
+  margin: 1px 1px;
+}
+
+.content-cons .silderbar-eare .grid-item > span {
+  background: #eeeeee;
+  color: #777;
+  display: inline-block;
+  width: 100%;
+  padding: 5px 3px;
+  box-sizing: border-box;
+}
+
+.content-cons .silderbar-hot {
+  width: 100%;
+  border: 1px solid #ccc;
+  margin: 10px 0;
+}
+
+.content-cons .silderbar-hot .hot-title {
+  background: #fafafa;
+  font-size: 20px;
+  padding: 3px 3px;
+  color: #777;
+}
+
+.content-cons .silderbar-hot .lists {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.content-cons .silderbar-hot .lists > div {
+  width: 46%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 14px;
+  color: #777;
+  margin: 6px;
+}
+
+.content-cons .silderbar-hot .lists > div img {
+  width: 100%;
+}
+
+.content-cons .silderbar-bar {
+  width: 100%;
+  border: 1px solid #ccc;
+}
+
+.content-cons .silderbar-bar .bar-title {
+  background: #fafafa;
+  font-size: 20px;
+  padding: 3px 3px;
+  color: #777;
+}
+
+.content-cons .silderbar-bar .barlists {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10px 10px;
+}
+
+.content-cons .silderbar-bar .barlists > div {
+  width: 48%;
+  display: flex;
+  flex-direction: row;
+  background: #eeeeee;
+  padding: 5px 10px;
+  color: #777;
+  margin: 2px;
+  box-sizing: border-box;
+}
+
+.sub-nav {
+  width: 1227px;
+  background: #222;
+}
+
+.sunnav-content {
+  width: 1240px;
+  padding: 30px 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.sunnav-content ul {
+  flex-grow: 1;
+  margin: 0 20px;
+}
+
+.sunnav-content ul > li {
+  list-style: none;
+}
+
+.sunnav-content h4 {
+  color: #FFFFFF;
+  font-size: 20px;
+  height: 50px;
+  line-height: 50px;
+  border-bottom: 1px #747474 dashed;
+}
+
+.sunnav-content a {
+  color: #747474;
+  height: 30px;
+  line-height: 30px;
+}
+
+.ecenter {
+  justify-content: center;
+  display: flex;
+}
+
+.spce-between {
+  justify-content: space-between;
+  display: flex;
+}
+
+.copyright {
+  width: 1227px;
+  height: 60px;
+  line-height: 60px;
+  color: #747474;
+  text-align: center;
+  background: #000000;
+}

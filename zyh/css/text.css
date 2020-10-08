@@ -1,0 +1,49 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #CFEDCD;
+}
+.page-body,.page-foot,.page-header,.page-foot2{
+	width: 778px;
+	margin: 0 auto;
+}
+nav{
+	border-top: 10px solid green;
+	height: 56px;
+}
+.nav{
+	width: 778px;
+	height: 56px;
+}
+.flash{
+	width: 778px;
+	height: 153px;
+}
+.banner{
+	background: url(../img/banner.jpg);
+	height: 153px;
+}
+.page-foot{
+	height: 40px;
+	background: #008000;
+	color: #fff;
+	text-align: center;
+	line-height: 40px;
+	margin-top: 75px;
+}
+.page-body{
+	height: 400px;
+}
+.page-body2{
+	height: 700px;
+	background: #FFFFFF;
+}
+.page-foot2{
+	height: 40px;
+	background: #008000;
+	color: #fff;
+	text-align: center;
+	line-height: 40px;
+}
