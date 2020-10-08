@@ -18,7 +18,13 @@
 	            justify-content: space-around;align-items: center;
 	            position: fixed;bottom: 0;font-size:2vh ;text-align: center;
 	            border-top: #AAAAAA 0.2vh solid; color: #aaa;
+			
                       }
+					  .page-footer		  a{
+					color: #777;
+					text-decoration: none;
+					
+				}
             .page-footer img{
                 margin-left: -0.5vh;
                   }
@@ -35,27 +41,32 @@
 				<li style="padding: 10px 0px 25px 0px;"><font size="2">确认密码:&nbsp;&nbsp;<input type="text" value="确认密码"/></font></li>
 				<li style="padding: 10px 0px 25px 0px;"><font size="2">用户姓名:&nbsp;&nbsp;<input type="text" value="用户姓名"/></font></li>
 				<li style="padding: 10px 0px 25px 0px;"><font size="2">性别:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="sex" value="男" checked="checked"/>&nbsp;&nbsp;男&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="sex" value="女"/>&nbsp;&nbsp;女</font></li>
-				
 				<li style="border: 1px solid #38CA73;border-radius:5px;background: #38CA73;height: 35px;"><span style="display: flex;justify-content: center;font-size: 15px;align-items: center;height: 35px;color: #fff;">注册</span></li>
 			</ul>
 			
 		</div>
 		<div class="page-footer">
-			<figure>
-				<i class="fa fa-home" aria-hidden="true"></i>
+			<figure class="home">
+			   <a href="./index.html">
+				<i class="fa fa-home" aria-hidden="true" ></i>
 				<figcaption>首页</figcaption>
+			   </a>
 			</figure>
 			<figure>
-				<i class="fa fa-compass" aria-hidden="true"></i>
-				<figcaption>发现</figcaption>
+				<a href="./list.html">
+					<i class="fa fa-home" aria-hidden="true" ></i>
+					<figcaption>发现</figcaption></a>
 			</figure>
 			<figure>
-				<i class="fa fa-file-text-o" aria-hidden="true"></i>
-				<figcaption>订单</figcaption>
+				<a href="./myorder.html">
+					<i class="fa fa-file-text-o" aria-hidden="true" class="dingdan"></i>
+				    <figcaption>订单</figcaption>
+				</a>
 			</figure>
 			<figure>
-				<i class="fa fa-user-o" aria-hidden="true"></i>
-				<figcaption>我的</figcaption>
+				 <a href="./login.html">
+					<i class="fa fa-user-o" aria-hidden="true" class="myview"></i>
+					<figcaption>我的</figcaption></a>
 			</figure>
 		</div>
 	</body>
